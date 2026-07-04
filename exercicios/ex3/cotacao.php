@@ -15,9 +15,7 @@ $cotaçao = 63.5;
 
 $dolar = $metical / $cotaçao;
 
-
-
-echo "seus MT".number_format($metical)." equivalem a $".number_format($dolar). " "
+echo "seus MT".number_format($metical, 2, ",", "." )." equivalem a $".number_format($dolar, 2, ",", "." ). " "
 
 ?>
 </body>
